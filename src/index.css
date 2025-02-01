@@ -1,0 +1,70 @@
+div#root {
+  width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 20px 0px;
+}
+
+body {
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+select {
+  border: none;
+  background: none;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+label {
+  text-align: start;
+}
+
+@media only screen and (max-width: 980px) and (min-width: 320px) {
+  .payone-container {
+      max-width: 90%;
+      padding: 15px;
+  }
+
+  img {
+      width: 200px;
+      height: auto;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+}

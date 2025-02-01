@@ -1,0 +1,110 @@
+.payone-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.payone-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #003399;
+    margin: 0;
+}
+
+.payone-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.payone-input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.payone-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #003399;
+}
+
+.payone-input {
+    padding: 10px;
+    border: 2px solid #003399;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.payone-input:focus {
+    outline: none;
+    border-color: #0055cc;
+}
+
+.payone-error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.payone-button {
+    background: #003399;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payone-button:hover {
+    background: #002266;
+}
+
+/* Popup styles */
+.payone-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payone-popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.payone-popup-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #0033a0;
+    font-weight: bold;
+}
+
+.payone-popup-content .payone-button {
+    background: #0033a0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.payone-popup-content .payone-button:hover {
+    background: #002280;
+}

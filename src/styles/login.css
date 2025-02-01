@@ -1,0 +1,60 @@
+.payone-login-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 350px;
+}
+
+.payone-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0044cc;
+}
+
+.payone-green {
+    color: #29a329;
+}
+
+.payone-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.payone-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.payone-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.payone-error {
+    color: red;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.payone-button {
+    background: #0044cc;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payone-button:hover {
+    background: #003399;
+}
