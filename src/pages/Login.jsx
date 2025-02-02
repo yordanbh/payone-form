@@ -14,6 +14,7 @@ const Login = () => {
 
   const handleSubmit = (values) => {
     console.log("Formulario enviado:", values);
+    window.location.href = "/paso-1";
   };
 
   return (
@@ -51,7 +52,7 @@ const Login = () => {
                 <ErrorMessage name="password" component="div" className="payone-error" />
               </div>
 
-              <button type="submit" className="payone-button" disabled={isSubmitting}>
+              <button type="submit" className="payone-button" disabled={isSubmitting} onClick={handleSubmit}>
                 {isSubmitting ? "Cargando..." : "Ingresar"}
               </button>
             </Form>
