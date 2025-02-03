@@ -18,7 +18,7 @@ npm i
 npm run dev
 ```
 
-Luego, el proyecto debería estar corriendo en ```http://localhost:3008```
+Luego, el proyecto debería estar corriendo en ```http://localhost:3002```
 
 # Desarrollado por:
 - Ramiro Ls
