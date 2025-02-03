@@ -1,6 +1,8 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
+import Logo from "../assets/logo.jpg";
+
 const Login = () => {
   const initialValues = {
     user: "",
@@ -20,9 +22,7 @@ const Login = () => {
   return (
     <div className="container">
       <div className="payone-login-card">
-        <h1 className="payone-title">
-          Pay<span className="payone-green">One</span>
-        </h1>
+        <img src={Logo} width={200} height={80} alt="logo" />
         <p className="payone-subtitle">Inicia sesión en tu cuenta</p>
 
         <Formik

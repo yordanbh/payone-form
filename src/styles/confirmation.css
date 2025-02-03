@@ -1,0 +1,61 @@
+.payone-confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.payone-confirmation-icon {
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+.payone-confirmation-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #002d62;
+    margin-bottom: 10px;
+}
+
+.payone-confirmation-text {
+    font-size: 18px;
+    color: #555;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.payone-confirmation-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #3B3A96;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+}
+
+.payone-confirmation-btn:hover {
+    background-color: #3B3A96;
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .payone-confirmation-title {
+        font-size: 22px;
+    }
+
+    .payone-confirmation-text {
+        font-size: 16px;
+        max-width: 90%;
+    }
+
+    .payone-confirmation-btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
