@@ -1,0 +1,85 @@
+.payone-paso1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.payone-paso1-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.payone-paso1-content h2 {
+    color: #3B3A96;
+}
+
+.payone-paso1-content p {
+    color: #57823B;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.payone-paso1-subtitle {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #072649;
+    font-weight: bold;
+}
+
+.payone-paso1-steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.payone-paso1-step {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #002d62;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.payone-paso1-step.active {
+    background-color: #002d62;
+    color: white;
+}
+
+.payone-paso1-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3B3A96;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+}
+
+.payone-paso1-btn:hover {
+    background-color: #3B3A96;
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .payone-paso1-title {
+        font-size: 22px;
+    }
+
+    .payone-paso1-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

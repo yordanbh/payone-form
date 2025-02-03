@@ -1,0 +1,122 @@
+.payone-paso2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.payone-paso2-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #002d62;
+}
+
+.payone-paso2-subtitle {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.payone-paso2-input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin: 20px 0;
+    gap: 10px;
+    justify-content: center;
+}
+
+.payone-paso2-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.payone-paso2-label {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #3B3A96;
+    font-weight: bold;
+}
+
+.payone-paso2-span {
+    position: absolute;
+    left: 58rem;
+}
+
+.payone-paso2-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-top: 1px solid #57823B;
+    border-bottom: 1px solid #57823B;
+    text-align: center;
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+}
+
+.payone-paso2-input:focus {
+    outline: none;
+}
+
+.payone-paso2-step {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #002d62;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.payone-paso2-content span {
+    color: #57823B;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.payone-paso2-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3B3A96;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+}
+
+.payone-paso2-input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.payone-paso2-btn:hover {
+    background-color: #3B3A96;
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .payone-paso2-title {
+        font-size: 22px;
+    }
+
+    .payone-paso2-input {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .payone-paso2-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

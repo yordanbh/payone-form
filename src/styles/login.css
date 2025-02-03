@@ -11,7 +11,7 @@
 .payone-title {
     font-size: 24px;
     font-weight: bold;
-    color: #0044cc;
+    color: #3B3A96;
 }
 
 .payone-green {
@@ -46,15 +46,17 @@
 }
 
 .payone-button {
-    background: #0044cc;
+    background: #3B3A96;
     color: white;
     padding: 10px;
     font-size: 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: transform .3s ease-in-out;
 }
 
 .payone-button:hover {
-    background: #003399;
+    background: #3B3A96;
+    transform: scale(1.1);
 }

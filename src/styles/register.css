@@ -1,5 +1,5 @@
 .payone-container {
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
     padding: 20px;
     background: white;
@@ -30,7 +30,7 @@
 .payone-label {
     font-size: 1rem;
     font-weight: bold;
-    color: #003399;
+    color: #3B3A96;
 }
 
 .payone-input {
@@ -42,7 +42,7 @@
 
 .payone-input:focus {
     outline: none;
-    border-color: #0055cc;
+    border-color: #3B3A96;
 }
 
 .payone-error {

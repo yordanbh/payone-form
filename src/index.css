@@ -39,6 +39,10 @@ a {
   text-decoration: none;
 }
 
+input {
+  border: none;
+}
+
 select {
   border: none;
   background: none;
@@ -66,5 +70,25 @@ label {
 
   .container {
     padding: 0 20px;
+  }
+
+  .payone-paso2-input-container {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .payone-paso2-span {
+    display: none;
+  }
+
+  .payone-paso3-payment-methods-container img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .payone-paso3-step {
+    width: 60px !important;
+    height: 100px !important;
   }
 }
